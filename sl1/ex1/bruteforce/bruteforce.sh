@@ -2,7 +2,7 @@
 
 bruteforce() {
 	A="${1}${2}${3}${4}${5}${6}${7}${8}"
-	if ./pw_checker_naive "$A" &>/dev/null; then
+	if ./../pw_checker_naive "$A" &>/dev/null; then
 		printf "%s\n" "$A"
 		success=1
 	fi
